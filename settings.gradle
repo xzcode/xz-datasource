@@ -1,0 +1,4 @@
+
+rootProject.name = "${group}-datasource"
+include ":${group}-datasource-hikari-autoconfig"
+include ":${group}-datasource-druid-autoconfig"

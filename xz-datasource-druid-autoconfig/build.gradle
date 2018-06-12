@@ -1,0 +1,8 @@
+
+dependencies {
+	compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: springBootVersion
+	
+	// https://mvnrepository.com/artifact/com.alibaba/druid
+	compile group: 'com.alibaba', name: 'druid', version: '1.1.6'
+}
+
