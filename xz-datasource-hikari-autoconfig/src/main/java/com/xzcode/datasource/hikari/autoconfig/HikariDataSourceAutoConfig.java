@@ -1,4 +1,4 @@
-package com.sourcemuch.commons.datasource.hikari.autoconfig;
+package com.xzcode.datasource.hikari.autoconfig;
 
 import java.util.Properties;
 

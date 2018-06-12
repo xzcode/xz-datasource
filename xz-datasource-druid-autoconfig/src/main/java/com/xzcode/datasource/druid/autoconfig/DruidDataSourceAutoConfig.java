@@ -1,4 +1,4 @@
-package com.sourcemuch.commons.datasource.druid.autoconfig;
+package com.xzcode.datasource.druid.autoconfig;
 
 import javax.sql.DataSource;
 
