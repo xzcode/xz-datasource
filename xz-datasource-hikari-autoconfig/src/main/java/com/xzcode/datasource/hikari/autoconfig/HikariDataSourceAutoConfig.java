@@ -16,7 +16,7 @@ import com.zaxxer.hikari.HikariDataSource;
 @ConditionalOnProperty(prefix = HikariDataSourceAutoConfig.PROPERTIEX_NAME, name="enabled", havingValue = "true")
 public class HikariDataSourceAutoConfig {
 	
-	public static final String PROPERTIEX_NAME = "sourcemuch.commons.datasource.hikari"; 
+	public static final String PROPERTIEX_NAME = "xz.datasource.hikari"; 
 	
 	@Bean
 	public DataSource dataSource(){

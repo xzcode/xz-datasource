@@ -13,7 +13,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 @ConditionalOnProperty(prefix = DruidDataSourceAutoConfig.PROPERTIEX_NAME, name="enabled", havingValue = "true")
 public class DruidDataSourceAutoConfig {
 	
-	public static final String PROPERTIEX_NAME = "sourcemuch.commons.datasource.druid"; 
+	public static final String PROPERTIEX_NAME = "xz.datasource.druid"; 
 	
 	
 	@ConfigurationProperties(prefix = PROPERTIEX_NAME)
